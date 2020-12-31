@@ -9,21 +9,61 @@
 /* Begin PBXBuildFile section */
 		1F2A5D812594768C004A51E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2A5D802594768C004A51E0 /* AppDelegate.swift */; };
 		1F2A5D832594768C004A51E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2A5D822594768C004A51E0 /* SceneDelegate.swift */; };
-		1F2A5D852594768C004A51E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2A5D842594768C004A51E0 /* ViewController.swift */; };
+		1F2A5D852594768C004A51E0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2A5D842594768C004A51E0 /* HomeViewController.swift */; };
 		1F2A5D882594768C004A51E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F2A5D862594768C004A51E0 /* Main.storyboard */; };
 		1F2A5D8A25947690004A51E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F2A5D8925947690004A51E0 /* Assets.xcassets */; };
 		1F2A5D8D25947690004A51E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F2A5D8B25947690004A51E0 /* LaunchScreen.storyboard */; };
+		1F2A5D9625947816004A51E0 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2A5D9525947816004A51E0 /* MenuViewController.swift */; };
+		1F2A5D9A2594BB11004A51E0 /* SlideinTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2A5D992594BB11004A51E0 /* SlideinTransition.swift */; };
+		1F51A8CD259B49E1009E42C9 /* Gotham-XLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1F51A8BB259B49E1009E42C9 /* Gotham-XLight.otf */; };
+		1F51A8CE259B49E1009E42C9 /* Gotham-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1F51A8BC259B49E1009E42C9 /* Gotham-Thin.otf */; };
+		1F51A8CF259B49E1009E42C9 /* Gotham-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1F51A8BD259B49E1009E42C9 /* Gotham-Black.otf */; };
+		1F51A8D0259B49E1009E42C9 /* Gotham-XLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1F51A8BE259B49E1009E42C9 /* Gotham-XLightItalic.otf */; };
+		1F51A8D1259B49E1009E42C9 /* GothamLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F51A8BF259B49E1009E42C9 /* GothamLight.ttf */; };
+		1F51A8D2259B49E1009E42C9 /* freefontsfamily.com.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1F51A8C0259B49E1009E42C9 /* freefontsfamily.com.txt */; };
+		1F51A8D3259B49E1009E42C9 /* Gotham-UltraItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1F51A8C1259B49E1009E42C9 /* Gotham-UltraItalic.otf */; };
+		1F51A8D4259B49E1009E42C9 /* Gotham-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1F51A8C2259B49E1009E42C9 /* Gotham-Bold.otf */; };
+		1F51A8D5259B49E1009E42C9 /* GothamMediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F51A8C3259B49E1009E42C9 /* GothamMediumItalic.ttf */; };
+		1F51A8D6259B49E1009E42C9 /* GothamBookItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F51A8C4259B49E1009E42C9 /* GothamBookItalic.ttf */; };
+		1F51A8D7259B49E1009E42C9 /* Gotham-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1F51A8C5259B49E1009E42C9 /* Gotham-ThinItalic.otf */; };
+		1F51A8D8259B49E1009E42C9 /* Gotham-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1F51A8C6259B49E1009E42C9 /* Gotham-Light.otf */; };
+		1F51A8D9259B49E1009E42C9 /* GothamBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F51A8C7259B49E1009E42C9 /* GothamBold.ttf */; };
+		1F51A8DA259B49E1009E42C9 /* Gotham-BookItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1F51A8C8259B49E1009E42C9 /* Gotham-BookItalic.otf */; };
+		1F51A8DB259B49E1009E42C9 /* GothamBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F51A8C9259B49E1009E42C9 /* GothamBoldItalic.ttf */; };
+		1F51A8DC259B49E1009E42C9 /* GothamBook.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F51A8CA259B49E1009E42C9 /* GothamBook.ttf */; };
+		1F51A8DD259B49E1009E42C9 /* GothamLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F51A8CB259B49E1009E42C9 /* GothamLightItalic.ttf */; };
+		1F51A8DE259B49E1009E42C9 /* GothamMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F51A8CC259B49E1009E42C9 /* GothamMedium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1F2A5D7D2594768C004A51E0 /* FastPay Personal App UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FastPay Personal App UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F2A5D802594768C004A51E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F2A5D822594768C004A51E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1F2A5D842594768C004A51E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F2A5D842594768C004A51E0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		1F2A5D872594768C004A51E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F2A5D8925947690004A51E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F2A5D8C25947690004A51E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F2A5D8E25947690004A51E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F2A5D9525947816004A51E0 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		1F2A5D992594BB11004A51E0 /* SlideinTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideinTransition.swift; sourceTree = "<group>"; };
+		1F51A8BB259B49E1009E42C9 /* Gotham-XLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-XLight.otf"; sourceTree = "<group>"; };
+		1F51A8BC259B49E1009E42C9 /* Gotham-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Thin.otf"; sourceTree = "<group>"; };
+		1F51A8BD259B49E1009E42C9 /* Gotham-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Black.otf"; sourceTree = "<group>"; };
+		1F51A8BE259B49E1009E42C9 /* Gotham-XLightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-XLightItalic.otf"; sourceTree = "<group>"; };
+		1F51A8BF259B49E1009E42C9 /* GothamLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamLight.ttf; sourceTree = "<group>"; };
+		1F51A8C0259B49E1009E42C9 /* freefontsfamily.com.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = freefontsfamily.com.txt; sourceTree = "<group>"; };
+		1F51A8C1259B49E1009E42C9 /* Gotham-UltraItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-UltraItalic.otf"; sourceTree = "<group>"; };
+		1F51A8C2259B49E1009E42C9 /* Gotham-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Bold.otf"; sourceTree = "<group>"; };
+		1F51A8C3259B49E1009E42C9 /* GothamMediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamMediumItalic.ttf; sourceTree = "<group>"; };
+		1F51A8C4259B49E1009E42C9 /* GothamBookItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamBookItalic.ttf; sourceTree = "<group>"; };
+		1F51A8C5259B49E1009E42C9 /* Gotham-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-ThinItalic.otf"; sourceTree = "<group>"; };
+		1F51A8C6259B49E1009E42C9 /* Gotham-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Light.otf"; sourceTree = "<group>"; };
+		1F51A8C7259B49E1009E42C9 /* GothamBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamBold.ttf; sourceTree = "<group>"; };
+		1F51A8C8259B49E1009E42C9 /* Gotham-BookItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-BookItalic.otf"; sourceTree = "<group>"; };
+		1F51A8C9259B49E1009E42C9 /* GothamBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamBoldItalic.ttf; sourceTree = "<group>"; };
+		1F51A8CA259B49E1009E42C9 /* GothamBook.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamBook.ttf; sourceTree = "<group>"; };
+		1F51A8CB259B49E1009E42C9 /* GothamLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamLightItalic.ttf; sourceTree = "<group>"; };
+		1F51A8CC259B49E1009E42C9 /* GothamMedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamMedium.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +96,59 @@
 		1F2A5D7F2594768C004A51E0 /* FastPay Personal App UI */ = {
 			isa = PBXGroup;
 			children = (
-				1F2A5D802594768C004A51E0 /* AppDelegate.swift */,
-				1F2A5D822594768C004A51E0 /* SceneDelegate.swift */,
-				1F2A5D842594768C004A51E0 /* ViewController.swift */,
+				1F51A8B9259B49C9009E42C9 /* Fonts */,
+				1FCBCB9425971F8000FE5154 /* Supporting Files */,
+				1F2A5D842594768C004A51E0 /* HomeViewController.swift */,
+				1F2A5D9525947816004A51E0 /* MenuViewController.swift */,
+				1F2A5D992594BB11004A51E0 /* SlideinTransition.swift */,
 				1F2A5D862594768C004A51E0 /* Main.storyboard */,
 				1F2A5D8925947690004A51E0 /* Assets.xcassets */,
-				1F2A5D8B25947690004A51E0 /* LaunchScreen.storyboard */,
 				1F2A5D8E25947690004A51E0 /* Info.plist */,
 			);
 			path = "FastPay Personal App UI";
+			sourceTree = "<group>";
+		};
+		1F51A8B9259B49C9009E42C9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1F51A8BA259B49E1009E42C9 /* Gotham-Font */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		1F51A8BA259B49E1009E42C9 /* Gotham-Font */ = {
+			isa = PBXGroup;
+			children = (
+				1F51A8BB259B49E1009E42C9 /* Gotham-XLight.otf */,
+				1F51A8BC259B49E1009E42C9 /* Gotham-Thin.otf */,
+				1F51A8BD259B49E1009E42C9 /* Gotham-Black.otf */,
+				1F51A8BE259B49E1009E42C9 /* Gotham-XLightItalic.otf */,
+				1F51A8BF259B49E1009E42C9 /* GothamLight.ttf */,
+				1F51A8C0259B49E1009E42C9 /* freefontsfamily.com.txt */,
+				1F51A8C1259B49E1009E42C9 /* Gotham-UltraItalic.otf */,
+				1F51A8C2259B49E1009E42C9 /* Gotham-Bold.otf */,
+				1F51A8C3259B49E1009E42C9 /* GothamMediumItalic.ttf */,
+				1F51A8C4259B49E1009E42C9 /* GothamBookItalic.ttf */,
+				1F51A8C5259B49E1009E42C9 /* Gotham-ThinItalic.otf */,
+				1F51A8C6259B49E1009E42C9 /* Gotham-Light.otf */,
+				1F51A8C7259B49E1009E42C9 /* GothamBold.ttf */,
+				1F51A8C8259B49E1009E42C9 /* Gotham-BookItalic.otf */,
+				1F51A8C9259B49E1009E42C9 /* GothamBoldItalic.ttf */,
+				1F51A8CA259B49E1009E42C9 /* GothamBook.ttf */,
+				1F51A8CB259B49E1009E42C9 /* GothamLightItalic.ttf */,
+				1F51A8CC259B49E1009E42C9 /* GothamMedium.ttf */,
+			);
+			path = "Gotham-Font";
+			sourceTree = "<group>";
+		};
+		1FCBCB9425971F8000FE5154 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F2A5D802594768C004A51E0 /* AppDelegate.swift */,
+				1F2A5D822594768C004A51E0 /* SceneDelegate.swift */,
+				1F2A5D8B25947690004A51E0 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +208,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F51A8D6259B49E1009E42C9 /* GothamBookItalic.ttf in Resources */,
+				1F51A8D0259B49E1009E42C9 /* Gotham-XLightItalic.otf in Resources */,
+				1F51A8D5259B49E1009E42C9 /* GothamMediumItalic.ttf in Resources */,
+				1F51A8DE259B49E1009E42C9 /* GothamMedium.ttf in Resources */,
 				1F2A5D8D25947690004A51E0 /* LaunchScreen.storyboard in Resources */,
+				1F51A8CF259B49E1009E42C9 /* Gotham-Black.otf in Resources */,
+				1F51A8D2259B49E1009E42C9 /* freefontsfamily.com.txt in Resources */,
+				1F51A8D1259B49E1009E42C9 /* GothamLight.ttf in Resources */,
+				1F51A8DD259B49E1009E42C9 /* GothamLightItalic.ttf in Resources */,
+				1F51A8DA259B49E1009E42C9 /* Gotham-BookItalic.otf in Resources */,
+				1F51A8CE259B49E1009E42C9 /* Gotham-Thin.otf in Resources */,
+				1F51A8D7259B49E1009E42C9 /* Gotham-ThinItalic.otf in Resources */,
+				1F51A8DC259B49E1009E42C9 /* GothamBook.ttf in Resources */,
+				1F51A8D4259B49E1009E42C9 /* Gotham-Bold.otf in Resources */,
+				1F51A8CD259B49E1009E42C9 /* Gotham-XLight.otf in Resources */,
+				1F51A8D9259B49E1009E42C9 /* GothamBold.ttf in Resources */,
 				1F2A5D8A25947690004A51E0 /* Assets.xcassets in Resources */,
+				1F51A8D3259B49E1009E42C9 /* Gotham-UltraItalic.otf in Resources */,
+				1F51A8DB259B49E1009E42C9 /* GothamBoldItalic.ttf in Resources */,
 				1F2A5D882594768C004A51E0 /* Main.storyboard in Resources */,
+				1F51A8D8259B49E1009E42C9 /* Gotham-Light.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,9 +239,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F2A5D852594768C004A51E0 /* ViewController.swift in Sources */,
+				1F2A5D9A2594BB11004A51E0 /* SlideinTransition.swift in Sources */,
+				1F2A5D852594768C004A51E0 /* HomeViewController.swift in Sources */,
 				1F2A5D812594768C004A51E0 /* AppDelegate.swift in Sources */,
 				1F2A5D832594768C004A51E0 /* SceneDelegate.swift in Sources */,
+				1F2A5D9625947816004A51E0 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +393,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8DSX3CQY2V;
 				INFOPLIST_FILE = "FastPay Personal App UI/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +413,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8DSX3CQY2V;
 				INFOPLIST_FILE = "FastPay Personal App UI/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

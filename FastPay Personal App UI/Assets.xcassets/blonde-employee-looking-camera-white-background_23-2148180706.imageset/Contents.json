@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "blonde-employee-looking-camera-white-background_23-2148180706.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "blonde-employee-looking-camera-white-background_23-2148180706@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "blonde-employee-looking-camera-white-background_23-2148180706@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
