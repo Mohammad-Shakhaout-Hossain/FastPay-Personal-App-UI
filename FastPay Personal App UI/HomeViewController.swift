@@ -9,11 +9,24 @@ import UIKit
 
 class HomeViewController: UIViewController {
 
+    var item = 0
 let transition = SlideinTransition()
 override func viewDidLoad() {
     super.viewDidLoad()
     self.navigationItem.titleView = UIImageView(image: UIImage(named: "Group 13114"))
 }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        print("Sonar Cloud testing")
+        if item == 0 {
+            print(String(item))
+            item += 1
+        }else {
+            print(String(item))
+        }
+        
+    }
 
 
 @IBAction func menuTapped(_ sender: UIBarButtonItem){
