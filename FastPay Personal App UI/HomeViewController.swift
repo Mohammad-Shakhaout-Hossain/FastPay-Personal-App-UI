@@ -22,9 +22,9 @@ override func viewDidLoad() {
         if item == 0 {
             print(String(item))
             item += 1
-        }else
+        }else {
             print(String(item))
-        
+        }
         
     }
 

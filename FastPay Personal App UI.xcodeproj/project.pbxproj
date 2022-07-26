@@ -33,6 +33,8 @@
 		1F51A8DC259B49E1009E42C9 /* GothamBook.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F51A8CA259B49E1009E42C9 /* GothamBook.ttf */; };
 		1F51A8DD259B49E1009E42C9 /* GothamLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F51A8CB259B49E1009E42C9 /* GothamLightItalic.ttf */; };
 		1F51A8DE259B49E1009E42C9 /* GothamMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F51A8CC259B49E1009E42C9 /* GothamMedium.ttf */; };
+		C3B656C9288FAED200E3D016 /* Util in Resources */ = {isa = PBXBuildFile; fileRef = C3B656C8288FAED200E3D016 /* Util */; };
+		C3B656CB288FB00A00E3D016 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B656CA288FB00A00E3D016 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +66,8 @@
 		1F51A8CA259B49E1009E42C9 /* GothamBook.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamBook.ttf; sourceTree = "<group>"; };
 		1F51A8CB259B49E1009E42C9 /* GothamLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamLightItalic.ttf; sourceTree = "<group>"; };
 		1F51A8CC259B49E1009E42C9 /* GothamMedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamMedium.ttf; sourceTree = "<group>"; };
+		C3B656C8288FAED200E3D016 /* Util */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Util; sourceTree = "<group>"; };
+		C3B656CA288FB00A00E3D016 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../../KinderCubby/KinderCubby/AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,7 +148,9 @@
 		1FCBCB9425971F8000FE5154 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C3B656C8288FAED200E3D016 /* Util */,
 				1F2A5D802594768C004A51E0 /* AppDelegate.swift */,
+				C3B656CA288FB00A00E3D016 /* AppDelegate.swift */,
 				1F2A5D822594768C004A51E0 /* SceneDelegate.swift */,
 				1F2A5D8B25947690004A51E0 /* LaunchScreen.storyboard */,
 			);
@@ -224,6 +230,7 @@
 				1F51A8D4259B49E1009E42C9 /* Gotham-Bold.otf in Resources */,
 				1F51A8CD259B49E1009E42C9 /* Gotham-XLight.otf in Resources */,
 				1F51A8D9259B49E1009E42C9 /* GothamBold.ttf in Resources */,
+				C3B656C9288FAED200E3D016 /* Util in Resources */,
 				1F2A5D8A25947690004A51E0 /* Assets.xcassets in Resources */,
 				1F51A8D3259B49E1009E42C9 /* Gotham-UltraItalic.otf in Resources */,
 				1F51A8DB259B49E1009E42C9 /* GothamBoldItalic.ttf in Resources */,
@@ -239,6 +246,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3B656CB288FB00A00E3D016 /* AppDelegate.swift in Sources */,
 				1F2A5D9A2594BB11004A51E0 /* SlideinTransition.swift in Sources */,
 				1F2A5D852594768C004A51E0 /* HomeViewController.swift in Sources */,
 				1F2A5D812594768C004A51E0 /* AppDelegate.swift in Sources */,
@@ -391,7 +399,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8DSX3CQY2V;
+				DEVELOPMENT_TEAM = SYX7MLVSQP;
 				INFOPLIST_FILE = "FastPay Personal App UI/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -411,7 +419,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8DSX3CQY2V;
+				DEVELOPMENT_TEAM = SYX7MLVSQP;
 				INFOPLIST_FILE = "FastPay Personal App UI/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
